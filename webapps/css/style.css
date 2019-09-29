@@ -977,7 +977,10 @@ input[type="radio"].visually-hidden {
 
 .smart-targeting__table-description td {
   padding: 15px;
+  width: 110px;
   border-right: 1px solid #5dcecf;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   text-align: center; }
 
 .smart-targeting__table-description td:last-child {
@@ -1032,6 +1035,25 @@ input[type="radio"].visually-hidden {
   -webkit-box-shadow: 0 0 50px #5dcecf;
           box-shadow: 0 0 50px #5dcecf; }
 
+.smart-targeting__table-button--open {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-image: url("../img/arrow-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 27px;
+  background-color: #5dcecf;
+  border-radius: 40px;
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
 @media (max-width: 1200px) {
   .smart-targeting__table {
     width: 100%; }
@@ -1085,7 +1107,9 @@ input[type="radio"].visually-hidden {
     width: 280px;
     padding: 0;
     padding-left: 42%;
-    text-align: center; }
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
   .smart-targeting__table-description td::before {
     position: absolute;
     left: 1px;
