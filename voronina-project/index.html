@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Voronina</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preload" href="fonts/SourceSerifPro-Bold.ttf.woff2" as="font">
+    <link rel="preload" href="fonts/SourceSerifPro-Light.ttf.woff2" as="font">
+    <link rel="preload" href="fonts/SourceSerifPro-Regular.ttf.woff2" as="font">
+    <link rel="preload" href="fonts/SourceSerifPro-Semibold.ttf.woff2" as="font">
+    <link rel="preload" href="fonts/SourceSerifVariable-Roman.ttf.woff2" as="font">
+    <link href="css/style.min.css" rel="stylesheet">
+    <script src="js/picturefill.min.js" async=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <header class="page-header">
+        <nav class="main-nav main-nav--closed main-nav--nojs">
+          <a class="main-nav__logo" href="">VORONINA.</a>
+          <button class="main-nav__toggle" type="button" aria-label="Открыть меню"><span class="visually-hidden">Открыть меню</span></button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a href="#portfolio">Портфолио</a></li>
+              <li class="main-nav__item main-nav__hidden"><a href="#about_me">Обо мне</a></li>
+              <li class="main-nav__item"><a href="#price">Стоимость</a></li>
+              <li class="main-nav__item"><a href="#contacts">Контакты</a></li>
+            </ul>
+          </div>
+          <span class="main-nav__telnumber">+ 7 916 66 77 112</span>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section class="daria-voronina">
+          <div class="daria-voronina__wrapper">
+            <h1 class="daria-voronina__title">Дарья Воронина</h1>
+            <p class="daria-voronina__description">Food — фотограф и food — стилист
+              в Москве и Московской области</p>
+            <a href="#portfolio" class="daria-voronina__link">Портфолио &mdash;</a>
+            <p class="daria-voronina__social">INSTAGRAM &ndash; FACEBOOK</p>
+          </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+          <h2 class="portfolio-title">Портфолио</h2>
+          <div class="portfolio__images">
+            <div class="portfolio__coctails portfolio__coctails--left">
+              <img class="portfolio__coctails-mobile" src="img/pineapple-coctails-mobile.jpg" width="290" height="374" alt="Коктейли">
+              <img class="portfolio__coctails-tablet" src="img/pineapple-coctails-tablet.jpg" width="240" height="374" alt="Коктейли">
+              <img class="portfolio__coctails-desktop" src="img/pineapple-coctails.jpg" width="414" height="648" alt="Десерт">
+              <p class="portfolio__coctails-title">#соцсети</p>
+              <p class="portfolio__coctails-description">Фото контент для социальных сетей кондитерской «Леди Мармелад»</p>
+            </div>
+            <div class="portfolio__container">
+              <div class="portfolio__coctails">
+                <img class="portfolio__coctails-mobile" src="img/dish-dessert-mobile.jpg" width="290" height="374" alt="Десерт">
+                <img class="portfolio__coctails-tablet" src="img/dish-dessert-tablet.jpg" width="184" height="229" alt="Десерт">
+                <img class="portfolio__coctails-dessert" src="img/dish-dessert-tablet.jpg" width="320" height="396" alt="Десерт">
+                <p class="portfolio__coctails-title">#соцсети</p>
+                <p class="portfolio__coctails-description">Фото контент для инстаграма ресторана «Funky Food»</p>
+              </div>
+              <div class="portfolio__coctails">
+                <img class="portfolio__coctails-mobile" src="img/orange-coctails-mobile.jpg" width="290" height="374" alt="Апельсиновый сок">
+                <img class="portfolio__coctails-tablet" src="img/orange-coctails-tablet.jpg" width="184" height="236" alt="Апельсиновый сок">
+                <img class="portfolio__coctails-orange" src="img/orange-coctails.jpg" width="320" height="408" alt="Апельсиновый сок">
+                <p class="portfolio__coctails-title">#менюресторана</p>
+                <p class="portfolio__coctails-description">Съемка меню ресторана «Хорошая еда»</p>
+              </div>
+            </div>
+            <div class="portfolio__coctails portfolio__coctails--right">
+              <img class="portfolio__coctails-mobile" src="img/bed-tray-mobile.jpg" width="290" height="374" alt="Блюдо на кровати">
+              <img class="portfolio__coctails-tablet portfolio__coctails-tablet--hide" src="img/bed-tray-tablet.jpg" width="182" height="286" alt="Блюдо на кровати">
+              <img class="portfolio__coctails-tray" src="img/bed-tray.jpg" width="314" height="496" alt="Блюдо на кровати">
+              <p class="portfolio__coctails-title">#рекламнаясъемка</p>
+              <p class="portfolio__coctails-description">Съемка для баннерной рекламной печати ресторана «Бранч»</p>
+            </div>
+          </div>
+        </section>
+        <section class="detailed-portfolio">
+          <div class="detailed-portfolio__photos">
+            <img class="detailed-portfolio__photo-mobile" src="img/dish-eggs-mobile.png" width="320" height="388" alt="Блюдо с яичницей">
+          </div>
+          <div class="detailed-portfolio__description-text">
+            <h2 class="detailed-portfolio__title">Подробное портфолио</h2>
+            <p class="detailed-portfolio__description">С описанием задач заказчика, полного процесса работы и финальным результатом</p>
+            <a class="detailed-portfolio__btn" href="files/test-file.pdf" download="">Скачать в PDF &mdash;</a>
+          </div>
+        </section>
+        <section class="about-me" id="about_me">
+          <h2 class="about-me__title">Обо мне</h2>
+          <div class="about-me__wrapper">
+            <div class="about-me__photos">
+              <div class="about-me__left-photo">
+                <img class="about-me__left-hand" src="img/left-hand.jpg" width="306" height="417" alt="Фото на смартфон с левой руки">
+              </div>
+              <div class="about-me__right-photo">
+                <img class="about-me__right-hand" src="img/right-hand.jpg" width="306" height="417" alt="Фото на смартфон с правой руки">
+              </div>
+            </div>
+            <div class="about-me__inner-text">
+              <p class="about-me__about">Во всех фотосъемках еды, я работаю как фуд-фотограф и фуд-стилист. Создаю креативные концепции, реализую ваши идеи. Разрабатываю рецепты, вкусно снимаю. Провожу обучение</p>
+              <div class="about-me__container">
+                <p class="about-me__work">Всегда открыта к сотрудничеству и рада новым предложениям</p>
+                <p class="about-me__mail">Mail: daria.voronina@gmail.com</p>
+                <p class="about-me__tel">Tel.: + 7 916 66 77 112</p>
+                <button class="about-me__btn">Работать со мной &mdash;</button>
+              </div>
+          </div>
+          </div>
+        </section>
+        <section class="price" id="price">
+          <div class="price__container">
+            <h2 class="price__main-title">Стоимость</h2>
+            <div class="price__images">
+              <div class="price__work-hours">
+                <img class="price__coctails-mobile" src="img/red-coctails.jpg" width="290" height="382" alt="Красные коктейли">
+                <img class="price__coctails-tablet" src="img/red-coctails-tablet.jpg" width="240" height="382" alt="Красные коктейли">
+                <img class="price__coctails-red" src="img/red-coctails-tablet.jpg" width="414" height="648" alt="Красные коктейли">
+                <p class="price__title">12 часов съемки<span class="price__title-intire">&mdash; 30&nbsp;000 рублей</span></p>
+                <p class="price__description">Подготовка к съемке от 1 недели Предварительный дизайн — проект <br>Food - стилизация <br>Расширенный реквизит Цветокоррекция и пост-обработка Результаты в течение 3-х дней</p>
+              </div>
+              <div class="price__work-hours">
+                <img class="price__dish-mobile" src="img/dish-gray-table.jpg" width="290" height="382" alt="Блюдо на сером столе">
+                <img class="price__dish-tablet" src="img/dish-gray-table-tablet.jpg" width="186" height="384" alt="Блюдо на сером столе">
+                <img class="price__dish-gray" src="img/dish-gray-table-tablet.jpg" width="316" height="398" alt="Блюдо на сером столе">
+                <p class="price__title">4 часа съемки<span class="price__title-intire"> &mdash; 15&nbsp;000 рублей</span></p>
+                <p class="price__description">Подготовка к съемке — 1 день <br>Food — стилизация <br>Использование реквизита <br>Цветокоррекция и постобработка <br>Результаты в течение 3-х дней</p>
+              </div>
+              <div class="price__work-hours">
+                <img class="price__cookies-mobile" src="img/dish-cookies.jpg" width="290" height="382" alt="Блюдо с печеньем">
+                <img class="price__cookies-tablet" src="img/dish-cookies-tablet.jpg" width="182" height="292" alt="Блюдо с печеньем">
+                <img class="price__cookies-dish" src="img/dish-cookies-tablet.jpg" width="316" height="496" alt="Блюдо с печеньем">
+                <p class="price__title">1 час съемки<span class="price__title-intire"> &mdash; 4&nbsp;000 рублей</span></p>
+                <p class="price__description">Food - стилизация <br>Использование реквизита Цветокоррекция <br>Результаты в течение <br class="price__description-br">5-и дней</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact-me" id="contacts">
+          <div class="contact-me__container">
+            <h2 class="contact-me__title">Свяжитесь со мной</h2>
+            <div class="contact-me__wrapper">
+              <p class="contact-me__skype">Skype <span class="contact-me__green">///</span> daria.voronina</p>
+              <p class="contact-me__email">E-mail <span class="contact-me__green">///</span> daria.voronina@gmail.com</p>
+              <p class="contact-me__phone">Phone <span class="contact-me__green">///</span> + 7 916 66 77 112</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <div class="page-footer__container">
+          <div class="page-footer__social social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a class="social__link social__link--facebook" href="#" tabindex="0" aria-label="Перейти в Facebook">
+                  <span class="visually-hidden">Facebook</span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--instagram" href="#" tabindex="0" aria-label="Перейти в Instagram">
+                  <span class="visually-hidden">Instagram</span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--vk" href="#" tabindex="0" aria-label="Перейти в VKontakte">
+                  <span class="visually-hidden">VKontakte</span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--pinterest" href="#" tabindex="0" aria-label="Перейти в Pinterest">
+                  <span class="visually-hidden">Pinterest</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
