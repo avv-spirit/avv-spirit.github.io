@@ -499,7 +499,8 @@ input[type="radio"].visually-hidden {
 
 .main-nav--opened .main-nav__toggle {
   top: 0;
-  right: 5px; }
+  right: 5px;
+  background-color: transparent; }
   .main-nav--opened .main-nav__toggle::before, .main-nav--opened .main-nav__toggle::after {
     content: "";
     position: absolute;
@@ -2001,7 +2002,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   content: "";
   top: -66px;
-  left: 159px;
+  left: 121px;
   width: 2px;
   height: 30px;
   background-color: #cb98a8; }
@@ -2021,14 +2022,14 @@ input[type="radio"].visually-hidden {
     font-size: 24px;
     letter-spacing: 2px; }
   .contact-me__title::before {
-    left: 384px; }
+    left: 131px; }
   .contact-me__container {
     position: relative; }
   .contact-me__container::before {
     position: absolute;
     content: "";
     top: 50px;
-    left: 40px;
+    left: -220px;
     width: 26px;
     height: 16px;
     background-size: 26px;
@@ -2038,7 +2039,7 @@ input[type="radio"].visually-hidden {
     position: absolute;
     content: "";
     top: -150px;
-    right: 40px;
+    right: -220px;
     width: 40px;
     height: 36px;
     background-size: 40px;
@@ -2057,7 +2058,7 @@ input[type="radio"].visually-hidden {
     letter-spacing: 2px; }
   .contact-me__title::before {
     top: -130px;
-    left: 720px;
+    left: 541px;
     height: 40px; }
   .contact-me__wrapper {
     display: -webkit-box;
@@ -2076,13 +2077,13 @@ input[type="radio"].visually-hidden {
     letter-spacing: 1px; }
   .contact-me__container::before {
     top: -6px;
-    left: 150px;
+    left: -30px;
     width: 50px;
     height: 30px;
     background-size: 50px; }
   .contact-me__container::after {
     top: -230px;
-    right: 150px;
+    right: -20px;
     width: 54px;
     height: 48px;
     background-size: 54px; } }
