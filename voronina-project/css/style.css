@@ -584,6 +584,10 @@ input[type="radio"].visually-hidden {
   .main-nav__item a:hover {
     background-color: #dcdcdc; }
 
+.main-nav__active a {
+  color: #878787;
+  border-bottom: 3px solid #878787; }
+
 .main-nav__telnumber {
   display: none; }
 
@@ -664,7 +668,9 @@ input[type="radio"].visually-hidden {
     right: 104px;
     display: block;
     font-weight: 600;
-    z-index: 1; } }
+    z-index: 1; }
+  .main-nav__active {
+    color: gray; } }
 
 @media (min-width: 1440px) {
   .main-nav {
@@ -1221,6 +1227,14 @@ input[type="radio"].visually-hidden {
 .portfolio__coctails-tray {
   display: none; }
 
+.portfolio__wrapper {
+  display: block;
+  width: 80%;
+  margin: 0 auto; }
+
+.portfolio__item {
+  margin: 10px 0; }
+
 @media (min-width: 768px) {
   .portfolio {
     display: -webkit-box;
@@ -1327,7 +1341,28 @@ input[type="radio"].visually-hidden {
     margin-right: 0; }
   .portfolio__container {
     margin: 0 20px;
-    width: 184px; } }
+    width: 184px; }
+  .portfolio__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #f8f8f8; }
+  .portfolio__item {
+    width: 46%;
+    height: 20%;
+    margin: 20px 10px; } }
 
 @media (min-width: 1440px) {
   .portfolio {
@@ -1405,7 +1440,14 @@ input[type="radio"].visually-hidden {
   .portfolio__coctails-title {
     font-size: 14px; }
   .portfolio__coctails-description {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .portfolio__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    margin: 20px; } }
 
 .about-me {
   position: relative;
@@ -1503,6 +1545,10 @@ input[type="radio"].visually-hidden {
 .about-me__btn:active {
   border-bottom: 2px solid #709c54; }
 
+.about-me__contacts {
+  display: block;
+  text-align: center; }
+
 @media (min-width: 768px) {
   .about-me {
     display: -webkit-box;
@@ -1520,7 +1566,7 @@ input[type="radio"].visually-hidden {
   .about-me::before {
     position: absolute;
     content: "";
-    top: 104px;
+    top: 20px;
     left: 50px;
     width: 50px;
     height: 31px;
@@ -1530,8 +1576,8 @@ input[type="radio"].visually-hidden {
   .about-me::after {
     position: absolute;
     content: "";
-    top: -20px;
-    right: 50px;
+    top: -74px;
+    right: 20px;
     width: 36px;
     height: 31px;
     background-size: 36px;
@@ -1601,21 +1647,25 @@ input[type="radio"].visually-hidden {
     margin-top: 10px;
     margin-left: 14px; }
   .about-me__btn {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .about-me__text {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px; } }
 
 @media (min-width: 1440px) {
   .about-me {
     margin-top: 80px;
     width: 1440px; }
   .about-me::before {
-    top: 92px;
+    top: 10px;
     left: 190px;
     width: 54px;
     height: 34px;
     background-size: 54px; }
   .about-me::after {
-    top: -480px;
-    right: 170px;
+    top: -100px;
+    right: 120px;
     width: 54px;
     height: 48px;
     background-size: 54px; }
@@ -1710,7 +1760,25 @@ input[type="radio"].visually-hidden {
     font-family: "Source Serif Pro", serif; }
   .about-me__btn {
     margin-top: 30px;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .about-me__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .about-me__text {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px; } }
 
 .price {
   display: block;

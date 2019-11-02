@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Voronina</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preload" href="fonts/SourceSerifPro-Bold.ttf.woff2" as="font">
+    <link rel="preload" href="fonts/SourceSerifPro-Light.ttf.woff2" as="font">
+    <link rel="preload" href="fonts/SourceSerifPro-Regular.ttf.woff2" as="font">
+    <link rel="preload" href="fonts/SourceSerifPro-Semibold.ttf.woff2" as="font">
+    <link rel="preload" href="fonts/SourceSerifVariable-Roman.ttf.woff2" as="font">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/picturefill.min.js" async=""></script>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <header class="page-header">
+        <nav class="main-nav main-nav--closed main-nav--nojs">
+          <a class="main-nav__logo" href="index.html">VORONINA.</a>
+          <button class="main-nav__toggle" type="button" aria-label="Открыть меню"><span class="visually-hidden">Открыть меню</span></button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <li class="main-nav__item main-nav__active"><a>Портфолио</a></li>
+              <li class="main-nav__item main-nav__hidden"><a href="index.html">Главная</a></li>
+              <li class="main-nav__item"><a href="#contacts">Контакты</a></li>
+            </ul>
+          </div>
+          <span class="main-nav__telnumber">+ 7 916 66 77 112</span>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section class="portfolio" id="portfolio">
+          <h1 class="visually-hidden">Подробное портфолио</h1>
+          <h2 class="portfolio-title">Портфолио</h2>
+          <div class="portfolio__wrapper">
+            <a class="portfolio__item" data-fancybox="gallery" href="img/gallery/1.jpg" data-caption="Caption #1"><img src="img/gallery/1.jpg" alt="Блюдо на кровати"></a>
+            <a class="portfolio__item" data-fancybox="gallery" href="img/gallery/2.jpg" data-caption="Caption #2"><img src="img/gallery/2.jpg" alt="Блюдо с печеньем"></a>
+            <a class="portfolio__item" data-fancybox="gallery" href="img/gallery/3.jpg" data-caption="Caption #3"><img src="img/gallery/3.jpg" alt="Десерт"></a>
+            <a class="portfolio__item" data-fancybox="gallery" href="img/gallery/4.jpg" data-caption="Caption #4"><img src="img/gallery/4.jpg" alt="Блюдо с яичницей"></a>
+            <a class="portfolio__item" data-fancybox="gallery" href="img/gallery/5.jpg" data-caption="Caption #5"><img src="img/gallery/5.jpg" alt="Блюдо на сером столе"></a>
+            <a class="portfolio__item" data-fancybox="gallery" href="img/gallery/6.jpg" data-caption="Caption #6"><img src="img/gallery/6.jpg" alt="Апельсиновый сок"></a>
+            <a class="portfolio__item" data-fancybox="gallery" href="img/gallery/7.jpg" data-caption="Caption #7"><img src="img/gallery/7.jpg" alt="Коктейли"></a>
+            <a class="portfolio__item" data-fancybox="gallery" href="img/gallery/8.jpg" data-caption="Caption #8"><img src="img/gallery/8.jpg" alt="Красные коктейли"></a>
+          </div>
+        </section>
+        <section class="about-me about-me--portfolio">
+          <h2 class="visually-hidden">Обо мне</h2>
+          <div class="about-me__contacts" id="contacts">
+            <p class="about-me__mail about-me__text ">Mail: daria.voronina@gmail.com</p>
+            <p class="about-me__tel about-me__text">Tel.: + 7 916 66 77 112</p>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <div class="page-footer__container">
+          <div class="page-footer__social social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a class="social__link social__link--facebook" href="#" tabindex="0" aria-label="Перейти в Facebook">
+                  <span class="visually-hidden">Facebook</span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--instagram" href="#" tabindex="0" aria-label="Перейти в Instagram">
+                  <span class="visually-hidden">Instagram</span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--vk" href="#" tabindex="0" aria-label="Перейти в VKontakte">
+                  <span class="visually-hidden">VKontakte</span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--pinterest" href="#" tabindex="0" aria-label="Перейти в Pinterest">
+                  <span class="visually-hidden">Pinterest</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
