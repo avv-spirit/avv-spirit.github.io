@@ -728,15 +728,13 @@ input[type="radio"].visually-hidden {
     .main-nav__item a:hover {
       background-color: transparent;
       border-bottom: 3px solid #709c54; }
-  .main-nav__item:first-child {
-    display: none; }
   .main-nav__item:first-child::before {
     display: none; }
   .main-nav__item:last-child::before {
     display: none; }
   .main-nav__telnumber {
     top: 30px;
-    right: 400px;
+    right: 300px;
     color: #000000; } }
 
 .page-main {
