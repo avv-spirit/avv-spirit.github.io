@@ -622,7 +622,7 @@ input[type="radio"].visually-hidden {
   height: 700px;
   background-size: 450px;
   background-repeat: no-repeat;
-  background-image: url("../../img/half-circle-green-left.svg");
+  background-image: url("../img/half-circle-green-left.svg");
   z-index: -1;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg); }
@@ -636,7 +636,7 @@ input[type="radio"].visually-hidden {
   height: 200px;
   background-size: 450px;
   background-repeat: no-repeat;
-  background-image: url("../../img/dots_bottom.svg");
+  background-image: url("../img/dots_bottom.svg");
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   opacity: 0.5;
@@ -832,7 +832,7 @@ input[type="radio"].visually-hidden {
   left: -350px;
   background-size: 1160px;
   background-repeat: no-repeat;
-  background-image: url("../../img/shapes.png");
+  background-image: url("../img/shapes.png");
   z-index: -1; }
 
 .career__container::before {
@@ -842,7 +842,7 @@ input[type="radio"].visually-hidden {
   height: 991px;
   background-size: 1310px;
   background-repeat: no-repeat;
-  background-image: url("../../img/dots.png");
+  background-image: url("../img/dots.png");
   z-index: -1; }
 
 .career__items {
