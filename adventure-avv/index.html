@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Adventure-AVV</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="icon" href="img/adventure-avv.ico" type="image/x-icon">
+    <script src="js/picturefill.min.js" async=""></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/picturefill.min.js" async=""></script>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <header class="page-header">
+        <nav class="main-nav main-nav--closed main-nav--nojs">
+          <a class="main-nav__logo" href="index.html">
+            <img class="main-nav__avv" src="img/logo_avv.png" alt="Логотип">
+          </a>
+          <button class="main-nav__toggle" type="button" aria-label="Открыть меню"><span class="visually-hidden">Открыть меню</span></button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item site-list__item--active">
+                <a>
+                  <svg class="site-list__item__home" width="16" height="16">
+                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                  </svg>Home
+                </a>
+              </li>
+              <li class="site-list__item"><a href="web.html"><svg class="site-list__item__web" width="16" height="16"><use xlink:href="img/sprite.svg#icon-web"></use></svg>Web</a></li>
+              <li class="site-list__item"><a href="cgart.html"><svg class="site-list__item__cg" width="16" height="16"><use xlink:href="img/sprite.svg#icon-cg"></use></svg>CG Art</a></li>
+              <li class="site-list__item"><a href="about.html"><svg class="site-list__item__about" width="16" height="16"><use xlink:href="img/sprite.svg#icon-about"></use></svg>About Me</a></li>
+              <li class="site-list__item"><a href="contacts.html"><svg class="site-list__item__contacts" width="16" height="16"><use xlink:href="img/sprite.svg#icon-contacts"></use></svg>Contacts</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section class="intro">
+          <div class="intro__wrapper">
+            <div class="intro__text">
+              <h2 class="intro__welcome">Welcome to my adventures...</h2>
+              <p>Привет!</p>
+              <p>Я, avv_spirit, начинающий 3D художник, веб-джун и путешественник, отсюда...adventure. Вижу, тебе интересно обо мне узнать больше, тогда заглядывай сверху в галерею моих проектов по web и в мои работы по CG, как здесь, так и на ArtStation работы по 3D будут добавляться по мере выполнения. Это первая версия сайта, updates впереди :)</p>
+            </div>
+            <img class="intro__photo" src="img/welcome-photo.jpg" alt="Фото на главной">
+          </div>
+        </section>
+        <section class="web">
+          <div class="web__wrapper">
+            <h2 class="web__title">Web development</h2>
+            <div class="web__container">
+              <div class="web__item">
+                <a href="https://avv-spirit.github.io/sedona-static/index.html" class="web__link">
+                  <img src="img/block-1.jpg" alt="Учебный проект Sedona" width="320" height="340">
+                </a>
+              </div>
+              <div class="web__item">
+                <a href="https://avv-spirit.github.io/sedona/index.html" class="web__link">
+                  <img src="img/block-2.jpg" alt="Учебный проект Sedona-adaptive" width="320" height="340">
+                </a>
+              </div>
+              <div class="web__item">
+                <a href="https://avv-spirit.github.io/uminite-project/index.html" class="web__link">
+                  <img src="img/block-3.jpg" alt="Промо-сайт WEBAPPS" width="320" height="340">
+                </a>
+              </div>
+              <div class="web__item">
+                <a href="https://avv-spirit.github.io/voronina-project/index.html" class="web__link">
+                  <img src="img/block-4.jpg" alt="Промо-сайт Дарья Воронина" width="320" height="340">
+                </a>
+              </div>
+              <div class="web__item">
+                <a href="https://avv-spirit.github.io/test-project/" class="web__link">
+                  <img src="img/block-5.jpg" alt="Промо-сайт Дарья Воронина" width="320" height="340">
+                </a>
+              </div>
+              <div class="web__item">
+                <a href="#" class="web__link">
+                  <img src="img/block-6.jpg" alt="Промо-сайт Дарья Воронина" width="320" height="340">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cg_art">
+          <div class="cg_art__wrapper">
+            <h2 class="cg_art__title">CG Art</h2>
+            <div class="cg_art__container">
+              <div class="cg_art__item">
+                <p>Wind girl</p>
+                <a data-fancybox="" href="img/1_art.jpg" data-caption="Wind Girl"><img src="img/1_art.jpg" alt="Wind girl" width="640"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <div class="page-footer__wrapper">
+          <div class="page-footer__search">
+            <p class="page-footer__mail-tel"><strong>Mail:</strong> avvspirit@gmail.com</p>
+            <a href="Tel:+79651021083" class="page-footer__mail-tel"><strong>Tel:</strong> +79651021083</a>
+            <!--<button class="page-footer__call-button">Связаться со мной</button>-->
+          </div>
+          <div class="page-footer__social-wrapper">
+            <div class="page-footer-social">
+              <ul class="page-footer__list">
+                <li class="page-footer__item">
+                  <a class="page-footer__link page-footer__link--facebook" href="https://www.facebook.com/avvspirit" tabindex="0" aria-label="Перейти в Facebook">
+                    <span class="visually-hidden">Facebook</span>
+                    <svg class="page-footer__facebook" width="16" height="16"><use xlink:href="img/sprite.svg#icon-facebook"></use></svg>
+                    <span class="page-footer__description">Follow me on Facebook</span>
+                  </a>
+                </li>
+                <li class="page-footer__item">
+                  <a class="page-footer__link page-footer__link--telegram" href="https://t.me/avv_spirit" tabindex="0" aria-label="Перейти в Telegram">
+                    <span class="visually-hidden">Telegram</span>
+                    <svg class="page-footer__telegram" width="16" height="16"><use xlink:href="img/sprite.svg#icon-telegram"></use></svg>
+                    <span class="page-footer__description">Follow me on Telegram</span>
+                  </a>
+                </li>
+                <li class="page-footer__item">
+                  <a class="page-footer__link page-footer__link--instagram" href="https://www.instagram.com/avv_spirit/" tabindex="0" aria-label="Перейти в Instagram">
+                    <span class="visually-hidden">Instagram</span>
+                    <svg class="page-footer__instagram" width="16" height="16"><use xlink:href="img/sprite.svg#icon-instagram"></use></svg>
+                    <span class="page-footer__description">Follow me on Instagram</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="page-footer__copyright">
+          <span>© 2020, Adventure-AVV | All rights are mine :) | Version 1.0</span>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
