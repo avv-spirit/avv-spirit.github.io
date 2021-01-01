@@ -28,6 +28,7 @@ let print_text = function(text, elem, delay) {
     );
   }
 }
+
 print_text(text, elem, delay);
 setInterval(function() {
   elem.innerHTML = "";
