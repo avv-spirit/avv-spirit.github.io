@@ -1,7 +1,7 @@
 'use strict';
 
-var navMain = document.querySelector('.main-nav');
-var navToggle = document.querySelector('.main-nav__toggle');
+let navMain = document.querySelector('.main-nav');
+let navToggle = document.querySelector('.main-nav__toggle');
 
 navMain.classList.remove('main-nav--nojs');
 
@@ -15,12 +15,12 @@ navToggle.addEventListener('click', function() {
   }
 });
 
-var slideIndex = 0;
+let slideIndex = 0;
 
 function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("slides__slideshow");
-  var dots = document.getElementsByClassName("slides__dot");
+  let i;
+  let slides = document.getElementsByClassName("slides__slideshow");
+  let dots = document.getElementsByClassName("slides__dot");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -38,8 +38,8 @@ showSlides();
 var flag = 0;
 
 function spoiler() {
-  var button = event.currentTarget;
-  var text = button.getElementsByClassName("spoilerText")[0];
+  let button = event.currentTarget;
+  let text = button.getElementsByClassName("spoilerText")[0];
 
   if (flag == 0) {
     text.style.height = "120px";
@@ -51,3 +51,31 @@ function spoiler() {
     flag = 0;
   }
 }
+
+const tabsBtn = document.querySelectorAll(".career__sidebar-items");
+const tabsItems = document.querySelectorAll(".career__list");
+
+tabsBtn.forEach(onTabClick);
+
+function onTabClick(item) {
+  item.addEventListener("click", function () {
+    let currentBtn = item;
+    let tabId = currentBtn.getAttribute("data-tab");
+    let currentTab = document.querySelector(tabId);
+
+    if ( ! currentBtn.classList.contains('active') ) {
+      tabsBtn.forEach(function (item) {
+        item.classList.remove('active');
+      })
+
+      tabsItems.forEach(function (item) {
+        item.classList.remove('active');
+      })
+
+      currentBtn.classList.add('active');
+      currentTab.classList.add('active');
+    }
+  });
+}
+
+document.querySelector('.career__sidebar-items').click();
