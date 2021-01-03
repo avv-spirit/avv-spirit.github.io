@@ -1043,6 +1043,7 @@ input[type="radio"].visually-hidden {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  min-height: 600px;
   background-color: #ffffff; }
 
 .career__container-wrapper {
