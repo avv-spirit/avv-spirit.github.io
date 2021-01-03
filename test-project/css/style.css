@@ -1170,16 +1170,40 @@ input[type="radio"].visually-hidden {
     width: auto; } }
 
 @media (max-width: 768px) {
-  .career__sidebar-container {
+  .career__list {
+    width: auto;
     display: none; }
+  .career__list.active {
+    width: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .career__items {
+    margin: 10px 10px 10px 10px;
+    border-left: 5px solid #5ee395;
+    border-bottom: 0; }
   .career__accordion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+  .career__cards-list {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 0; }
+  .career__sidebar-items {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #48494a; }
+  .career__sidebar-container {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    text-align: center; }
+  .career__sidebar-list {
+    padding: 0; }
   .career__container-wrapper {
     width: 100%;
     display: -webkit-box;
@@ -1221,8 +1245,6 @@ input[type="radio"].visually-hidden {
         -ms-flex-pack: center;
             justify-content: center; }
   .career__hidden {
-    display: none; }
-  .career__cards-list {
     display: none; }
   .career__bar {
     display: -webkit-box;
