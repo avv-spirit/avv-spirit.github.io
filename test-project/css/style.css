@@ -1045,16 +1045,6 @@ input[type="radio"].visually-hidden {
   width: 100%;
   background-color: #ffffff; }
 
-/*.career__list--active {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 868px;
-
-  list-style: none;
-}*/
 .career__container-wrapper {
   margin-top: -50px;
   margin-bottom: 62px;

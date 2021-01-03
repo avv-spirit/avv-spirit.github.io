@@ -35,7 +35,7 @@ function showSlides() {
 }
 showSlides();
 
-var flag = 0;
+/*var flag = 0;
 
 function spoiler() {
   let button = event.currentTarget;
@@ -50,7 +50,7 @@ function spoiler() {
     text.style.height = "0px";
     flag = 0;
   }
-}
+}*/
 
 const tabsBtn = document.querySelectorAll(".career__sidebar-items");
 const tabsItems = document.querySelectorAll(".career__list");
