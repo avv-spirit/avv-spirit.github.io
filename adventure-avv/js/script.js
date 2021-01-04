@@ -27,7 +27,7 @@ let print_text = function(text, elem, delay) {
       }, delay
     );
   }
-}
+};
 
 print_text(text, elem, delay);
 setInterval(function() {
