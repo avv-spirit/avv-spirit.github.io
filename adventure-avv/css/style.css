@@ -1516,7 +1516,8 @@ input[type="radio"].visually-hidden {
 
 @media (max-width: 768px) {
   .about-me {
-    padding: 0 60px; }
+    padding: 0 60px;
+    margin-top: -188px; }
   .about-me__welcome {
     font-size: 30px;
     line-height: 30px;
@@ -1526,7 +1527,8 @@ input[type="radio"].visually-hidden {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   .about-me__description {
-    font-size: 14px; } }
+    font-size: 14px;
+    margin-top: 104px; } }
 
 .contacts {
   width: auto;
@@ -1799,8 +1801,6 @@ input[type="radio"].visually-hidden {
 .web-page__wrapper {
   width: 100%;
   padding: 30px 0;
-  /*display: flex;
-  flex-direction: column;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1945,7 +1945,8 @@ input[type="radio"].visually-hidden {
   .web-page__head {
     padding: 0 50px; }
   .web-page__sign {
-    padding-left: 0; }
+    padding-left: 0;
+    padding-bottom: 86px; }
   .web-page__sign span {
     padding-top: 14px; }
   .web-page__item {
