@@ -470,44 +470,6 @@ input[type="radio"].visually-hidden {
   padding: 0;
   list-style: none; }
 
-/*.main-nav__home {
-  width: 14px;
-  height: 14px;
-  margin-right: 8px;
-  margin-bottom: 2px;
-  fill: $white;
-}
-
-.main-nav__web {
-  width: 14px;
-  height: 14px;
-  margin-right: 8px;
-  margin-bottom: 2px;
-  fill: $white;
-}
-
-.main-nav__cg {
-  width: 14px;
-  height: 14px;
-  margin-right: 8px;
-  fill: $white;
-}
-
-.main-nav__about {
-  width: 14px;
-  height: 14px;
-  margin-right: 8px;
-  margin-bottom: 1px;
-  fill: $white;
-}
-
-.main-nav__contacts {
-  width: 14px;
-  height: 14px;
-  margin-right: 8px;
-  margin-bottom: 1px;
-  fill: $white;
-}*/
 @media (max-width: 900px) {
   .main-nav {
     position: relative;
@@ -1430,6 +1392,10 @@ input[type="radio"].visually-hidden {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
+.cg-gallery ul {
+  padding-left: 0;
+  list-style: none; }
+
 .about-background {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1825,11 +1791,15 @@ input[type="radio"].visually-hidden {
           flex-direction: row;
   margin-top: 50px; }
 
+.web-page__projects h3 {
+  padding-left: 10px;
+  margin-top: 0; }
+
 .web-page__projects p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 10px;
+  padding: 0 10px 10px 10px;
   margin: 0; }
 
 .web-page__portfolio {
@@ -1933,8 +1903,10 @@ input[type="radio"].visually-hidden {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+  .web-page__projects h3 {
+    margin-top: 19px; }
   .web-page__projects p {
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
     margin-top: 10px; }
   .web-page__description p {
     padding-bottom: 10px; }
